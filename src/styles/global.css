@@ -1,0 +1,41 @@
+:root{
+  --bg-color: #E9E7E9;
+  --brand-color-primary: #D658B3;
+  --brand-color-secondary: #45B442;
+  --color-gray-700: #332B31;
+  --color-gray-600: #4A4448;
+  --color-gray-500: #756C71;
+  --color-gray-400: #D3CFD2;
+  --color-gray-300: #DFDCDF;
+  --color-gray-200: #E9E7E9;
+  --color-gray-100: #F4F1F2;
+  --color-white: #FFFFFF;
+
+  --ff-sans: 'Oxygen', sans-serif;
+  --fw-base: 400;
+  --fw-md: 500;
+  --fw-bold: 700;
+
+  --py-base: 1rem;
+  --py-lg: 1.5rem;
+  --py-xl: 3rem;
+
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2.5rem;
+
+  px-lg: 1.5rem;
+
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--py-lg);
+}
+.logo img {
+  width: 116px;
+  height: 56px;
+}
