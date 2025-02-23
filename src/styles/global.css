@@ -10,6 +10,7 @@
   --color-gray-200: #E9E7E9;
   --color-gray-100: #F4F1F2;
   --color-white: #FFFFFF;
+  --gradient-base: linear-gradient(90deg, #2DAA6E 0%, #2DAAAA 33.33%, #856CCF 66.67%, #D658B3 100%);
 
   --ff-sans: 'Oxygen', sans-serif;
   --fw-base: 400;
@@ -29,6 +30,14 @@
   px-lg: 1.5rem;
 
 }
+body {
+  font-family: var(--ff-sans);
+  font-size: var(--fs-base);
+  line-height: 1.5;
+  background-color: var(--bg-color);
+
+}
+
 .logo {
   display: flex;
   align-items: center;
